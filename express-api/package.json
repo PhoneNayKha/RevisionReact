@@ -1,22 +1,26 @@
 {
-  "dependencies": {
-    "@prisma/client": "^6.0.0",
-    "body-parser": "^1.20.3",
-    "cors": "^2.8.5",
-    "express": "^4.21.1",
-    "nodemon": "^3.1.7"
-  },
-  "devDependencies": {
-    "prisma": "^6.0.0"
-  },
-  "name": "express-api",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "dependencies": {
+        "@prisma/client": "^6.0.0",
+        "body-parser": "^1.20.3",
+        "cors": "^2.8.5",
+        "express": "^4.21.1",
+        "nodemon": "^3.1.7"
+    },
+    "devDependencies": {
+        "@faker-js/faker": "^9.3.0",
+        "prisma": "^6.0.0"
+    },
+    "prisma": {
+        "seed": "node prisma/seeds/main.js"
+    },
+    "name": "express-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
 }
